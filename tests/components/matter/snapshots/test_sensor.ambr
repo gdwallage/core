@@ -36390,7 +36390,7 @@
     'supported_features': 0,
     'translation_key': 'power_factor',
     'unique_id': '00000000000004D2-0000000000000017-MatterNodeDevice-1-ElectricalPowerMeasurementPowerFactor-144-17',
-    'unit_of_measurement': <UnitOfRatio.PERCENTAGE: '%'>,
+    'unit_of_measurement': None,
   })
 # ---
 # name: test_sensors[silabs_evse_charging][sensor.evse_power_factor-state]
@@ -36399,7 +36399,6 @@
       <EntityStateAttribute.DEVICE_CLASS: 'device_class'>: 'power_factor',
       <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'evse Power factor',
       <SensorEntityCapabilityAttribute.STATE_CLASS: 'state_class'>: <SensorStateClass.MEASUREMENT: 'measurement'>,
-      <EntityStateAttribute.UNIT_OF_MEASUREMENT: 'unit_of_measurement'>: <UnitOfRatio.PERCENTAGE: '%'>,
     }),
     'context': <ANY>,
     'entity_id': 'sensor.evse_power_factor',
@@ -39740,7 +39739,7 @@
     'supported_features': 0,
     'translation_key': 'power_factor',
     'unique_id': '00000000000004D2-0000000000000039-MatterNodeDevice-2-ElectricalPowerMeasurementPowerFactor-144-17',
-    'unit_of_measurement': <UnitOfRatio.PERCENTAGE: '%'>,
+    'unit_of_measurement': None,
   })
 # ---
 # name: test_sensors[silabs_water_heater][sensor.water_heater_power_factor-state]
@@ -39749,7 +39748,6 @@
       <EntityStateAttribute.DEVICE_CLASS: 'device_class'>: 'power_factor',
       <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'Water Heater Power factor',
       <SensorEntityCapabilityAttribute.STATE_CLASS: 'state_class'>: <SensorStateClass.MEASUREMENT: 'measurement'>,
-      <EntityStateAttribute.UNIT_OF_MEASUREMENT: 'unit_of_measurement'>: <UnitOfRatio.PERCENTAGE: '%'>,
     }),
     'context': <ANY>,
     'entity_id': 'sensor.water_heater_power_factor',
